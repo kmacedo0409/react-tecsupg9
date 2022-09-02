@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Footer from './Footer';
 import PrimerComponente from './AppEjemplo';
+import Section from './Section';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
+    <Section/>
     
     
     
