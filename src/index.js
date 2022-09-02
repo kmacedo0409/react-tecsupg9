@@ -10,7 +10,8 @@ import PrimerComponente from './AppEjemplo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PrimerComponente/>
+    <Header/>
+    
     
     
     
