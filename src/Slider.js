@@ -1,3 +1,10 @@
+import slide1 from "../src/img/slide-1.png";
+import slide2 from "../src/img/slide-2.png";
+import slide3 from "../src/img/slide-3.png";
+import slide4 from "../src/img/slide-4.png";
+import slide5 from "../src/img/slide-5.png";
+import slide6 from "../src/img/slide-6.png";
+
 const Slider = ()=>{
   return(
     <section>
@@ -16,36 +23,34 @@ const Slider = ()=>{
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="../img/slide-1.png" alt="" className="d-block w-100" />
+            <img src={slide1} alt="" className="d-block w-100" />
           </div>
           <div className="carousel-item">
-            <img src="../img/slide-2.png" alt="" className="d-block w-100" />
+            <img src={slide2} alt="" className="d-block w-100" />
           </div>
           <div className="carousel-item">
-            <img src="../img/slide-3.png" alt="" className="d-block w-100" />
+            <img src={slide3} alt="" className="d-block w-100" />
           </div>
           <div className="carousel-item">
-            <img src="../img/slide-4.png" alt="" className="d-block w-100" />
+            <img src={slide4} alt="" className="d-block w-100" />
           </div>
           <div className="carousel-item">
-            <img src="../img/slide-5.png" alt="" className="d-block w-100" />
+            <img src={slide5} alt="" className="d-block w-100" />
           </div>
           <div className="carousel-item">
-            <img src="../img/slide-6.png" alt="" className="d-block w-100" />
+            <img src={slide6} alt="" className="d-block w-100" />
           </div>
           <button
             className="carousel-control-prev"
             data-bs-target="#controls"
-            data-bs-slide="prev"
-            style="background-color: rgb(180, 180, 180)"
+            data-bs-slide="prev"            
           >
             <span className="carousel-control-prev-icon"></span>
           </button>
           <button
             className="carousel-control-next"
             data-bs-target="#controls"
-            data-bs-slide="next"
-            style="background-color: rgb(180, 180, 180)"
+            data-bs-slide="next"            
           >
             <span className="carousel-control-next-icon"></span>
           </button>
