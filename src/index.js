@@ -8,7 +8,6 @@ import Footer from './Footer';
 import PrimerComponente from './AppEjemplo';
 
 import Slider from './Slider';
-
 import Section from './Section';
 
 
@@ -19,10 +18,7 @@ root.render(
     <Header />
     <Slider />
     <Section/>
-    
-    
-
-    
+    <Footer />    
     
   </React.StrictMode>
 

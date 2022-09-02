@@ -1,9 +1,12 @@
+import imgdenim from '../src/img/denim.png'
+
 const Footer = ()=>{
     return(
-        <footer>
-        <h5>Copyright &copy; 2022 <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank"
-            rel="noopener noreferrer">Elliot Garamendi</a>. Todos los derechos reservados.</h5>
-      </footer>
+        <section>
+      <div className="mt-5">
+        <img src={imgdenim} alt="" />
+      </div>
+    </section>
     )
 }
 export default Footer;
