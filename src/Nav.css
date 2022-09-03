@@ -1,19 +1,22 @@
 .nav{
-    background-color: rgb(43, 201, 201);
+    background-color: rgb(255, 255, 255);
     display: flex;  
-    padding: 0 100px;
-    color: azure;
+    margin: 0.5rem auto;
+    color: black;
     align-items: center;
     justify-content: space-between;
-
+    max-width: 1300px;
 }
+
+.nav__list {
+    align-items: center;
+    margin: 0;
+}
+
 .nav__item{
    display: inline;
    padding-left: 20px;
    padding-right: 20px;
-
-
-
 }
 
 

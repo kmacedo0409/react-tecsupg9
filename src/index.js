@@ -6,20 +6,20 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Footer from './Footer';
 import PrimerComponente from './AppEjemplo';
-import Section from './Section';
+
 import Slider from './Slider';
+import Section from './Section';
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <Slider/>
+    <Header />
+    <Slider />
     <Section/>
-    
-    
-    
+    <Footer />    
     
   </React.StrictMode>
 
